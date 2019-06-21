@@ -1,41 +1,76 @@
-body{
-    background: gray;
+body {
+    text-align: center;
+    background: #777;
     align-content: center;
-    font-family: 'Roboto Mono', monospace;
+    font-family: sans-serif;
+    width: 960px;
+    font-size: 18px;
+    margin-left: 25%;
+
 }
-.section{
-    background: honeydew;
-    height: 100px;
-    width: 500px;
+
+.section {
+    background: #EBEBEb;
+    height: 215px;
+    width: 495px;
     float: left;
-    padding: 
-    
+    padding: ;
+    margin: 10px;
+
 }
-.H{
-    background: honeydew;
+
+.h-section{
+    background: #ebebeb;
+    margin: 8px;
+    position: relative;
+    top: 15%;
+    height: 25%;
 }
-.p{
-    background: gray;
+
+.P-section{
+    background: #ebebeb;
+    margin: 8px;
+    position: relative;
+    top: 15%;
+    height: 25%;
 }
 .article{
-    background: gray;
-    padding: 20px;
+    background: #777;
+    position: relative;
+    top: 20%;
+    margin: 7px;
+    width: 480px;
+    height: 65%;
 
 }
 div{
-    background: honeydew;
+    background: #ebebeb;
 }
-header{
-    background: honeydew;
+header{ 
+    width: 900px;
+    height: 70px;
+    align-content: center;
+    background: #ebebeb;
+    margin: 10px;
+    
 }
 .aside{
+    margin: 10px;
+    float: left;
+    height: 215px;
+    width: 385px;
  
 }
 .footer{
-    width: 100%;
-    height: 20px;
+    width: 900px;
+    height: 70px;
+    clear: both; 
+    margin: 10px;
+   
+}
+.nav{
+    width: 900px;
+    height: 70px;
+    margin: 10px;
 }
 
-.article:hover {
-    color: bisque;
-}
